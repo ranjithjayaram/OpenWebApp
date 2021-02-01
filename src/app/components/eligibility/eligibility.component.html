@@ -1,0 +1,45 @@
+<div class="eligibility">
+    <div class="calculator">
+        <h5>Eligibility Caluclator</h5>
+        <div class="slidergroup">
+            <label>Monthly Income</label>
+            <span> &#8377; {{incomeValue}} </span>
+            <mat-slider [max]="maxIncome" [min]="minIncome" class="mat-slider" [(ngModel)]="incomeValue">
+            </mat-slider>
+            <small style="float: left;">&#8377;{{minIncome}}</small>
+            <small style="float: right;">&#8377;{{maxIncome}}</small>
+           
+        </div>
+        <div  class="slidergroup">
+            <label>Monthly Expense</label>
+            <span> &#8377; {{expenseValue}} </span>
+            <mat-slider [max]="maxExpense" [min]="minExpense" class="mat-slider" [(ngModel)]="expenseValue">
+            </mat-slider>
+        </div>
+        <div class="datagroup">
+            <label>Repayment Tenure</label>
+            <mat-form-field appearance="fill">
+                <mat-select name="repay" [(ngModel)]="selectedTenure" >
+                    <mat-option *ngFor="let repay of repayTenure" [value]="repay.period">
+                        {{repay.value}}
+                      </mat-option>
+                </mat-select>
+              </mat-form-field>
+        </div>
+        <div class="datagroup">
+            <label style="display: inline;">Do you have any existing loans</label>
+            <mat-slide-toggle class="mat-slide-toggle"></mat-slide-toggle>
+        </div>
+        <div class="datagroup">
+            <label>EMI of existing loan (Optional)</label>
+            <input matInput type="text" placeholder="&#8377; 15000" value="">
+        </div>
+    </div>
+    <div class="getmoney">
+        <label>Loan Amount</label>
+        <span>&#8377; 10,00,000</span>
+        <label>Your EMI will be </label>
+        <span>&#8377; 15,000</span>
+        <button class="btnclass">Get Money</button>
+    </div>
+</div>

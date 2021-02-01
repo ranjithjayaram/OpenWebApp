@@ -1,0 +1,38 @@
+.background{
+   display: flex;
+}
+#bg1{
+    padding-top: 70px;
+    width: 50vw;
+    height: 100vh;
+    background: url(/assets/images/circle.png) top 20vh left -10vw /contain no-repeat , 
+    url(/assets/images/accounting_dots.png) top 80vh left 18vw no-repeat;
+    background-size: 70%;
+}
+#bg2{
+    width: 80vw;
+    height: 150vh;
+    background: url(/assets/images/circle@2x.png) top -80px right -80px / contain no-repeat, 
+    url(/assets/images/accounting_dots.png) top 110vh left 30vw no-repeat;
+}
+#bg3{
+    width: 100vw; 
+    min-height: 50vh;  
+    background:  url(/assets/images/sol_wave_bg.png) top 15vh right  / cover no-repeat;
+}
+
+h1{
+    margin: 50px 50px 50px 100px;
+    width: 250px;
+    padding-bottom: 5px;
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    color: #222222;
+    border-bottom: 4px solid #222222;
+}
+.collect-img{
+    width: 360px;
+    margin: 50px 0px 0px 70px;
+}
+

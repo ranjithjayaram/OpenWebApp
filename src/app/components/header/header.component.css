@@ -1,0 +1,71 @@
+.header{
+    width: 100vw;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+}
+.header-scroll{
+    width: 100vw;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+.logo{
+    padding: 10px 0px 0px 80px;
+    width: 80px;
+}
+.header-btns{
+    width: 45vw;
+    float: left;
+    padding-top: 40px;
+}
+.headerlink{
+    border: none;
+    width: 100px;
+    background-color: transparent;
+    color: #222222;
+}
+.headerlink:focus{
+    color:  #663399;
+}
+.headerlink:hover{
+    color:  #663399;
+}
+.headerbtn_1{
+    width: 90px;
+    border-radius: 12px;
+    background-color: transparent;
+    border: #663399 2px solid;
+    height: 30px;
+    margin-right: 10px;
+    color: #663399;
+}
+.headerbtn_1:focus{
+    outline: none;
+    background-color:  #663399;
+    color: white;
+}
+.headerbtn_1:hover{
+    outline: none;
+    background-color:  #663399;
+    color: white;  
+}
+.headerbtn_2{
+    width: 90px;
+    border-radius: 12px;
+    background-color: #8563a7;
+    height: 30px;
+    margin-right: 10px;
+    color: white;
+    border: none;
+}
+.headerbtn_2:focus{
+    outline: none;
+    background-color:  #663399;
+}
+.headerbtn_2:hover{
+    outline: none;
+    background-color:  #663399;
+    color: white;  
+}

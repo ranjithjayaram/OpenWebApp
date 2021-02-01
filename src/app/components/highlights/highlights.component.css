@@ -1,0 +1,77 @@
+.highlights{
+    width: 50vw;
+    display: flex;
+    margin: 20px;
+    background:transparent;
+    height: 100vh;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.cardlayout{
+    width: 200px;
+    min-height: 130px;
+    border-radius: 15px;
+    background: whitesmoke;
+    margin: 30px;
+}
+.cardicons{
+    width: 50px;
+    padding: 10px 0px 0px 10px;
+    
+}
+strong{
+    display: block;
+    font-size: small;
+    padding: 0px 2px 0px 10px;
+}
+span{
+    display: block;
+    font-size: x-small;
+    padding: 0px 2px 0px 10px;
+}
+.purplebg{
+    background-color: #9F62C9;
+    opacity: 0.5;
+    color: white;
+}
+.open-account{
+    width: 30vw;
+    margin: 50px;
+    height: 100vh;
+
+}
+h2{
+    font-size: 30px;
+    padding: 150px 0px 10px 50px;
+}
+p{
+    padding: 10px;
+    margin: 40px;
+    font-size: smaller;
+    color: #585858;
+}
+.openaccountbtn{
+    background: white;
+    border: #9F62C9 2px solid;
+    color: #9F62C9;
+    width: 180px;
+    height: 35px;
+    border-radius: 15px;
+    margin-left: 40px;
+}
+.openaccountbtn:hover{
+    background: #9F62C9;
+    color: white;
+    outline: none;
+}
+.openaccountbtn:focus{
+    background: #9F62C9;
+    color: white;
+    outline: none;
+}
+.cardlayout:hover{
+    background-color: #9F62C9;
+    opacity: 0.5;
+    color: white;
+}

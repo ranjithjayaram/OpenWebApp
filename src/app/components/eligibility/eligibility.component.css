@@ -1,0 +1,109 @@
+.eligibility{
+    padding: 20%;
+    display: flex
+}
+.calculator{
+    min-height: 400px;
+    width: 250px;
+    background: white;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 0px 4px 0px #dadada;
+    padding: 0px 30px 20px 30px;
+}
+h5{
+    text-align: center;
+    color: #585858;
+    font-family: ui-sans-serif;
+    padding-top: 10px;
+    font-size: large;
+}
+label{
+    display: block;
+    color:grey;
+    padding: 0px 8px;
+}
+span{
+    display: block;
+    font-size: larger;
+    padding: 0px 8px;
+}
+small{
+    color: gray;
+    font-size: smaller;
+    padding: 0px 8px;
+    margin-top: 0px;
+}
+.slidergroup{
+    margin:40px 0px
+}
+.datagroup{
+    padding:10px 0px
+}
+.mat-slider{
+    width: 100%;
+    height: 30px;
+    padding: 0px 8px;
+}
+:host ::ng-deep .mat-slider .mat-slider-thumb {
+background-color: #663399;
+}
+:host ::ng-deep  .mat-slider .mat-slider-track-fill  {
+background-color: #663399;
+}
+.mat-slide-toggle{
+    float: right;
+}
+:host ::ng-deep .mat-slide-toggle .mat-slide-toggle-thumb {
+background-color: white;
+}
+:host ::ng-deep  .mat-slide-toggle.mat-checked .mat-slide-toggle-bar {
+background-color:  #663399;
+}
+input[type='text']
+{
+    margin-left: 8px;
+    border: none;
+    border-bottom: 1px solid  #585858;;
+}
+input[type='text']:focus{
+    outline: none;
+}
+
+.getmoney{
+    height: 180px;
+    width: 140px;
+    background: #663399;
+    border-radius: 0px 10px 10px 0px;
+    border: none;
+    box-shadow: 0px 0px 4px 0px #dadada;
+    margin: 30% 0% 30% 3%; 
+    padding: 20% 0%;
+    text-align: center;
+}
+.getmoney label{
+   
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+.getmoney span{
+    color: white;
+    opacity: 1;
+    margin-bottom: 30px;
+}
+.btnclass{
+    background-color: white;
+    color: #663399;
+    border-radius: 20px;
+    height: 30px;
+    border: none;
+    width: 100px;
+}
+.btnclass:hover{
+    background-color: #2b1442;  
+    color: white;
+}
+.btnclass:focus{
+    background-color: #2b1442;
+    color: white;
+}
